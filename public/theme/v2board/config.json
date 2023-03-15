@@ -1,0 +1,49 @@
+{
+    "name": "v2board",
+    "description": "v2board",
+    "version": "1.7.2",
+    "images": "https://images.unsplash.com/photo-1515405295579-ba7b45403062?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2160&q=80",
+    "configs": [{
+        "label": "Màu chủ đề",
+        "placeholder": "Vui lòng chọn một màu chủ đề",
+        "field_name": "theme_color",
+        "field_type": "select",
+        "select_options": {
+            "default": "mặc định (màu xanh)",
+            "green": "màu xanh sữa",
+            "black": "đen",
+            "darkblue": "xanh đậm"
+        },
+        "default_value": "default"
+    }, {
+        "label": "hình nền",
+        "placeholder": "Vui lòng nhập URL hình nền",
+        "field_name": "background_url",
+        "field_type": "input"
+    }, {
+        "label": "phong cách thanh bên",
+        "placeholder": "Vui lòng chọn kiểu thanh bên",
+        "field_name": "theme_sidebar",
+        "field_type": "select",
+        "select_options": {
+            "light": "Sáng",
+            "dark": "tối tăm"
+        },
+        "default_value": "light"
+    }, {
+        "label": "phong cách hàng đầu",
+        "placeholder": "Vui lòng chọn phong cách hàng đầu",
+        "field_name": "theme_header",
+        "field_type": "select",
+        "select_options": {
+            "light": "Sáng",
+            "dark": "tối tăm"
+        },
+        "default_value": "dark"
+    }, {
+        "label": "HTML chân trang tùy chỉnh",
+        "placeholder": "Nó có thể nhận ra việc bổ sung mã JS dịch vụ khách hàng, v.v.",
+        "field_name": "custom_html",
+        "field_type": "textarea"
+    }]
+}
