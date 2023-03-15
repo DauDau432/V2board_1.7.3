@@ -9,7 +9,7 @@
 - Laravel
 
 ## Tài liệu
-[Click](https://v2board.com)
+[Hướng dẫn sử dụng](https://v2board.com)
 
 ## nhà tài trợ
 Nhờ giấy phép dự án mã nguồn mở được cung cấp bởi [Jetbrains](https://www.jetbrains.com/)
