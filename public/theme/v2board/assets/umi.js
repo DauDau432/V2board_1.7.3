@@ -16354,13 +16354,13 @@
                 }, null === (t = this.props.ticket) || void 0 === t ? void 0 : t.message.map(e=>{
                     return e.is_me ? s.a.createElement("div", null, s.a.createElement("div", {
                         className: "font-size-sm text-muted my-2 text-right"
-                    }, u()(1e3 * e.created_at).format("YYYY/MM/DD HH:mm")), s.a.createElement("div", {
+                    }, u()(1e3 * e.created_at).format("DD/MM/YYYY HH:mm")), s.a.createElement("div", {
                         className: "text-right ml-4"
                     }, s.a.createElement("div", {
                         className: "d-inline-block bg-gray-lighter px-3 py-2 mb-2 mw-100 rounded text-left"
                     }, e.message))) : s.a.createElement("div", null, s.a.createElement("div", {
                         className: "font-size-sm text-muted my-2"
-                    }, u()(1e3 * e.created_at).format("YYYY/MM/DD HH:mm")), s.a.createElement("div", {
+                    }, u()(1e3 * e.created_at).format("DD/MM/YYYY HH:mm")), s.a.createElement("div", {
                         className: "mr-4"
                     }, s.a.createElement("div", {
                         className: "d-inline-block bg-success-lighter px-3 py-2 mb-2 mw-100 rounded text-left"
@@ -27391,7 +27391,7 @@
                     dataIndex: "record_at",
                     key: "record_at",
                     render: e=>{
-                        return e ? h()(1e3 * e).format("YYYY/MM/DD") : "-"
+                        return e ? h()(1e3 * e).format("DD/MM/YYYY") : "-"
                     }
                 }, {
                     title: Object(v["formatMessage"])({
@@ -27730,7 +27730,7 @@
                 })) : u.a.createElement("span", null, Object(b["formatMessage"])({
                     id: "\u4e8e {date} \u5230\u671f\uff0c\u8ddd\u79bb\u5230\u671f\u8fd8\u6709 {day} \u5929\u3002"
                 }, {
-                    date: v()(1e3 * d.expired_at).format("YYYY/MM/DD"),
+                    date: v()(1e3 * d.expired_at).format("DD/MM/YYYY"),
                     day: ((d.expired_at - v()().format("X")) / 86400).toFixed(0)
                 }), null !== d.reset_day ? 0 !== d.reset_day ? Object(b["formatMessage"])({
                     id: "\u5df2\u7528\u6d41\u91cf\u5c06\u5728 {reset_day} \u65e5\u540e\u91cd\u7f6e"
@@ -28820,7 +28820,7 @@
                         }, e.title), s.a.createElement("small", null, Object(u["formatMessage"])({
                             id: "\u6700\u540e\u66f4\u65b0: {date}"
                         }, {
-                            date: p()(1e3 * e.updated_at).format("YYYY/MM/DD")
+                            date: p()(1e3 * e.updated_at).format("DD/MM/YYYY")
                         }))))
                     }
                     )))))
@@ -42964,17 +42964,17 @@
                     key: "created_at",
                     align: "right",
                     render: e=>{
-                        return b()(1e3 * e).format("YYYY/MM/DD HH:mm")
+                        return b()(1e3 * e).format("DD/MM/YYYY HH:mm")
                     }
                 }]
                   , _ = [{
                     title: Object(w["formatMessage"])({
-                        id: "\u53d1\u653e\u65f6\u95f4"
+                        id: "thời gian phát hành"
                     }),
                     dataIndex: "created_at",
                     key: "created_at",
                     render: e=>{
-                        return b()(1e3 * e).format("YYYY/MM/DD HH:mm")
+                        return b()(1e3 * e).format("DD/MM/YYYY HH:mm")
                     }
                 }, {
                     title: Object(w["formatMessage"])({
@@ -43060,7 +43060,7 @@
                     }
                 }, void 0 !== t[0] ? t[0] : d.a.createElement(u["a"], {
                     type: "loading"
-                }), "\u4eba")), d.a.createElement("div", {
+                }), " Người")), d.a.createElement("div", {
                     style: {
                         display: "flex",
                         padding: "5px 0"
@@ -44847,7 +44847,7 @@
                     dataIndex: "created_at",
                     key: "created_at",
                     render: e=>{
-                        return b()(1e3 * e).format("YYYY/MM/DD HH:mm")
+                        return b()(1e3 * e).format("DD/MM/YYYY HH:mm")
                     }
                 }, {
                     title: Object(w["formatMessage"])({
@@ -44856,7 +44856,7 @@
                     dataIndex: "updated_at",
                     key: "updated_at",
                     render: e=>{
-                        return b()(1e3 * e).format("YYYY/MM/DD HH:mm")
+                        return b()(1e3 * e).format("DD/MM/YYYY HH:mm")
                     }
                 }, {
                     title: Object(w["formatMessage"])({
@@ -51156,7 +51156,7 @@
                     dataIndex: "created_at",
                     key: "created_at",
                     render: e=>{
-                        return z()(1e3 * e).format("YYYY/MM/DD HH:mm")
+                        return z()(1e3 * e).format("DD/MM/YYYY HH:mm")
                     }
                 }, {
                     title: Object(B["formatMessage"])({
