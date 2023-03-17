@@ -233,7 +233,7 @@ window.settings.i18n['vi-VN'] = {
   '余额支付': 'Thanh toán số dư',
   '我的工单': 'Liên Hệ Hỗ Trợ',
   '工单历史': 'Tất cả thư',
-  '{reset_day} 日后重置流量': ' Sau {reset_day} ngày Dung Lượng Sẽ Được Reset',
+  '已用流量将在 {reset_day} 日后重置': ' Sau {reset_day} ngày Dung Lượng Sẽ Được Reset',
   '节点名称': 'Tên server',
   '于 {date} 到期，距离到期还有 {day} 天。': 'Hết Hạn Vào Ngày {date}, Còn Lại {day} Ngày.',
   'Telegram 讨论组': 'Nhóm Telegram',
