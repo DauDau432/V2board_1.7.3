@@ -58,7 +58,7 @@ class V2boardInstall extends Command
             }
             $this->saveToEnv([
                 'APP_KEY' => 'base64:' . base64_encode(Encrypter::generateKey('AES-256-CBC')),
-                'DB_HOST' => $this->ask('Vui lòng nhập địa chỉ cơ sở dữ liệu (mặc định: localhost）', 'localhost'),
+                'DB_HOST' => $this->ask('Vui lòng nhập địa chỉ cơ sở dữ liệu (mặc định: localhost', 'localhost'),
                 'DB_DATABASE' => $this->ask('Vui lòng nhập tên cơ sở dữ liệu'),
                 'DB_USERNAME' => $this->ask('Vui lòng nhập tên người dùng cơ sở dữ liệu'),
                 'DB_PASSWORD' => $this->ask('Vui lòng nhập mật khẩu cơ sở dữ liệu')
@@ -97,11 +97,11 @@ class V2boardInstall extends Command
             }
 
             $this->info('Mọi thứ đã sẵn sàng');
-            $this->info("Email của quản trị viên:{$email}");
-            $this->info("Mật khẩu quản trị:{$password}");
+            $this->info("Email của quản trị viên: {$email}");
+            $this->info("Mật khẩu của quản trị viên: {$password}");
 
             $defaultSecurePath = hash('crc32b', config('app.key'));
-            $this->info("truy cập http(s)://trang web của bạn/{$defaultSecurePath} Vào bảng quản lý, bạn có thể sửa đổi mật khẩu của mình trong trung tâm người dùng.");
+            $this->info("truy cập http(s)://trang web của bạn/{$defaultSecurePath} Vào trang quản lý, bạn có thể sửa đổi mật khẩu của mình trong trung tâm người dùng.");
         } catch (\Exception $e) {
             $this->error($e->getMessage());
         }
