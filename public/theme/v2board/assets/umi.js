@@ -16799,7 +16799,7 @@
                         }, f.a.createElement("i", {
                             className: "nav-main-link-icon si si-book-open mr-1"
                         }), Object(b["formatMessage"])({
-                            id: "\u67e5\u770b\u4f7f\u7528\u6559\u7a0b"
+                            id: "Xem hướng dẫn"
                         }))]
                     }
                 }
