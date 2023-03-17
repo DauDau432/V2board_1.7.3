@@ -91,7 +91,7 @@ window.settings.i18n['vi-VN'] = {
   '配置订阅': 'Cài Đặt Gói',
   '折扣': 'Chiết khấu',
   '付款周期': 'Chu kỳ thanh toán',
-  '有优惠券？': 'hập Mã Giảm Giá (nếu có)',
+  '有优惠券？': 'Nhập Mã Giảm Giá (nếu có)',
   '验证': 'Xác minh',
   '订单总额': 'Hóa Đơn Thanh Toán',
   '下单': 'Đặt hàng',
