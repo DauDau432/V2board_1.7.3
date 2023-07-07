@@ -1,4 +1,4 @@
-<img src="https://avatars.githubusercontent.com/u/56885001?s=200&v=4" alt="logo" width="130" height="130" align="right"/>
+
 
 # **V2Board version 1.7.3 việt hóa**
 
